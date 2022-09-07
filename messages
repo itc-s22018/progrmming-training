@@ -1,0 +1,22 @@
+messages = 'She said, "That\'s right.\\'
+print(messages)
+messages = "She said, \"That's right.\\"
+print(messages)
+
+import time
+time.sleep(3)
+messages = "\b" * 8
+print(messages, end="", flush=True)
+time.sleep(3)
+print("\U0001F600"*4)
+
+print("スライスのお試し")
+msg = "1234567890abcdefghijklmnopqrstuvwxyz"
+print(" 元の文字列:\n", msg, sep="")
+print(msg[:5])
+print(msg[-5:])
+print(msg[::2])
+print(msg[::3])
+print(msg[::-1])
+
+
